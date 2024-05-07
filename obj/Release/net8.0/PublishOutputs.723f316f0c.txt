@@ -1,0 +1,5 @@
+F:\.net\learn-dotnet\bin\Release\net8.0\publish\learn-dotnet.exe
+F:\.net\learn-dotnet\bin\Release\net8.0\publish\learn-dotnet.dll
+F:\.net\learn-dotnet\bin\Release\net8.0\publish\learn-dotnet.deps.json
+F:\.net\learn-dotnet\bin\Release\net8.0\publish\learn-dotnet.runtimeconfig.json
+F:\.net\learn-dotnet\bin\Release\net8.0\publish\learn-dotnet.pdb

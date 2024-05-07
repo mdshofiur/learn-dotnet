@@ -1,0 +1,14 @@
+F:\.net\learn-dotnet\bin\Debug\net8.0\learn-dotnet.exe
+F:\.net\learn-dotnet\bin\Debug\net8.0\learn-dotnet.deps.json
+F:\.net\learn-dotnet\bin\Debug\net8.0\learn-dotnet.runtimeconfig.json
+F:\.net\learn-dotnet\bin\Debug\net8.0\learn-dotnet.dll
+F:\.net\learn-dotnet\bin\Debug\net8.0\learn-dotnet.pdb
+F:\.net\learn-dotnet\obj\Debug\net8.0\learn-dotnet.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net\learn-dotnet\obj\Debug\net8.0\learn-dotnet.AssemblyInfoInputs.cache
+F:\.net\learn-dotnet\obj\Debug\net8.0\learn-dotnet.AssemblyInfo.cs
+F:\.net\learn-dotnet\obj\Debug\net8.0\learn-dotnet.csproj.CoreCompileInputs.cache
+F:\.net\learn-dotnet\obj\Debug\net8.0\learn-dotnet.dll
+F:\.net\learn-dotnet\obj\Debug\net8.0\refint\learn-dotnet.dll
+F:\.net\learn-dotnet\obj\Debug\net8.0\learn-dotnet.pdb
+F:\.net\learn-dotnet\obj\Debug\net8.0\learn-dotnet.genruntimeconfig.cache
+F:\.net\learn-dotnet\obj\Debug\net8.0\ref\learn-dotnet.dll
