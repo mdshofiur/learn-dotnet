@@ -1,18 +1,20 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
-WORKDIR /App
+# Use the .NET SDK image for building
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /source
 
-# Copy everything
-COPY . ./
-# Restore as distinct layers
+# Copy the solution file and restore dependencies
+COPY *.sln .
+COPY *.csproj ./
 RUN dotnet restore
-# Build and publish a release
-RUN dotnet publish -c Release -o out
 
-# Build runtime image
+# Copy the rest of the source code
+COPY . .
+
+# Build the application and place artifacts in the 'build' directory
+RUN dotnet publish -c release -o ./published --no-restore
+
+# Final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
-WORKDIR /App
-COPY --from=build-env /App/out .
-
-
-
-ENTRYPOINT ["dotnet", "learn-dotnet.dll"]
+WORKDIR /app
+COPY --from=build /source/published  ./
+ENTRYPOINT ["dotnet", "learn-dotnet.dll"] 
