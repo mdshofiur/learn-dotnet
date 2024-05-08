@@ -12,3 +12,13 @@ F:\.net\learn-dotnet\obj\Release\net8.0\refint\learn-dotnet.dll
 F:\.net\learn-dotnet\obj\Release\net8.0\learn-dotnet.pdb
 F:\.net\learn-dotnet\obj\Release\net8.0\learn-dotnet.genruntimeconfig.cache
 F:\.net\learn-dotnet\obj\Release\net8.0\ref\learn-dotnet.dll
+F:\.net\learn-dotnet\obj\Release\net8.0\learn-dotnet.MvcApplicationPartsAssemblyInfo.cache
+F:\.net\learn-dotnet\obj\Release\net8.0\learn-dotnet.sourcelink.json
+F:\.net\learn-dotnet\obj\Release\net8.0\staticwebassets.build.json
+F:\.net\learn-dotnet\obj\Release\net8.0\staticwebassets.development.json
+F:\.net\learn-dotnet\obj\Release\net8.0\staticwebassets\msbuild.learn-dotnet.Microsoft.AspNetCore.StaticWebAssets.props
+F:\.net\learn-dotnet\obj\Release\net8.0\staticwebassets\msbuild.build.learn-dotnet.props
+F:\.net\learn-dotnet\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.learn-dotnet.props
+F:\.net\learn-dotnet\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.learn-dotnet.props
+F:\.net\learn-dotnet\obj\Release\net8.0\staticwebassets.pack.json
+F:\.net\learn-dotnet\obj\Release\net8.0\scopedcss\bundle\learn-dotnet.styles.css
