@@ -31,6 +31,34 @@ app.MapGet("/people", () => new[]
     new Person("Ana"), new Person("Filipe"), new Person("Emillia")
 });
 
+
+// if(!app.Environment.IsDevelopment())
+// {
+//     app.UseExceptionHandler("/error");
+//     app.MapGet("/error", () => Results.Problem("An error occurred.", statusCode: 500));
+// }
+
+if(!app.Environment.IsProduction())
+{
+    app.MapGet("/prod", () => Results.Problem("This endpoint is only available in production.", statusCode: 500));
+}
+
+if(!app.Environment.IsStaging())
+{
+    app.MapGet("/stage", () => Results.Problem("This endpoint is only available in staging.", statusCode: 500));
+}
+
+if(!app.Environment.IsDevelopment())
+{
+    app.MapGet("/dev", () => Results.Problem("This endpoint is only available in development.", statusCode: 500));
+}
+
+if(app.Environment.IsEnvironment("Development"))
+{
+    app.MapGet("/env", () => Results.Problem("This endpoint is only available in development.", statusCode: 500));
+}
+
+
 // Run the app
 app.Run();
 
